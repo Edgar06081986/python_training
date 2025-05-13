@@ -2,7 +2,7 @@ n, a, b = map(int, input().split())
 s = input().strip()
 
 # Заменяем символы "О" и "К" на "(" и ")" для удобства
-s = s.replace('О', '(').replace('К', ')')
+s = s.replace('О', '(').replace('К', ')')        # Не верно нет букв О и К
 
 balance = 0
 cost = 0
